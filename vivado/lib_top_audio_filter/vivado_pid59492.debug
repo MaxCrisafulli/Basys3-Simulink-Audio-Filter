@@ -1,0 +1,36 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2021.2 (64-bit)
+# SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Current time: Fri Aug 05 19:04:59 CEST 2022
+# Process ID (PID): 59492
+# User: mcrisafu
+# OS: Red Hat Enterprise Linux Server release 7.9 (Maipo)
+# Project: top_audio_filter
+# Part: xc7a35tcpg236-1
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Fri Aug 05 19:04:59 CEST 2022
+java.util.ConcurrentModificationException
+	at java.base/java.util.Vector$Itr.checkForComodification(Vector.java:1321)
+	at java.base/java.util.Vector$Itr.next(Vector.java:1277)
+	at java.desktop/sun.java2d.cmm.ProfileDeferralMgr.activateProfiles(ProfileDeferralMgr.java:93)
+	at java.desktop/java.awt.color.ICC_Profile.getInstance(ICC_Profile.java:784)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.setImageData(JPEGImageReader.java:779)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.readImageHeader(Native Method)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.readNativeHeader(JPEGImageReader.java:731)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.checkTablesOnly(JPEGImageReader.java:347)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.gotoImage(JPEGImageReader.java:496)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.readHeader(JPEGImageReader.java:724)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.readInternal(JPEGImageReader.java:1130)
+	at java.desktop/com.sun.imageio.plugins.jpeg.JPEGImageReader.read(JPEGImageReader.java:1110)
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1468)
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1315)
+	at ui.views.B.aB.b(SourceFile:891)
+	at ui.views.B.aD.aXx(SourceFile:835)
+	at ui.frmwork.y.run(SourceFile:206)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
